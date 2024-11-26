@@ -1,0 +1,56 @@
+body {
+    background:white;
+    height:100vh;
+}
+main{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 25% 25%;
+}
+div{
+    border-radius:15px;
+}
+img {
+    height:100px;
+}
+.create {
+    background-color: #faeee2;
+     grid-row:1/3; 
+     grid-column: 1/2;
+}
+.social{
+    background-color: #7651dc;
+     grid-column: 2/4;
+     /* grid-row:3/4;  */
+}
+.schedule {
+    background-color: #dcd1fc;
+    grid-column:4/5; 
+     grid-row: 1/3; }
+.write {
+    background-color:#ffcc69;
+    grid-row: 2/4; 
+     grid-column:1/2; 
+}
+.manage {
+    background-color:#ffffff;
+    /* grid-column: 3/4; */
+    /* grid-row: 2/3; */
+}
+.maintain{
+  background-color: #ffcc69;
+  /* grid-column: 3/4; */
+  
+}
+
+.percentage{
+  background-color: white;
+   grid-column: 2/3;
+   grid-row:3/3; 
+}
+
+.grow{
+  background-color:#7651dc;
+   grid-column: 3/5; 
+   color:white;
+}
